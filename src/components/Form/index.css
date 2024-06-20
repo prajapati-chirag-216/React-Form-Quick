@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* default variant color classes */
+.default {
+  background-color: #94a3b8;
+}
+
+.bg-light-default {
+  background-color: #f8fafc;
+}
+
+.switch-default {
+  background-color: #f8fafc;
+  user-select: none;
+}
+
+.switch-default:hover {
+  background-color: #f1f5f9;
+}
+
+.input-default {
+  border-color: #94a3b8;
+}
+
+.input-default::placeholder {
+  color: #94a3b8;
+}
+
+.text-default {
+  color: #94a3b8;
+}
+
+button.default:hover {
+  background-color: #64748b;
+}
+
+/* primary variant color classes */
+.primary {
+  background-color: #60a5fa;
+}
+
+.bg-light-primary {
+  background-color: #eff6ff;
+}
+
+.switch-primary {
+  background-color: #eff6ff;
+  user-select: none;
+}
+
+.switch-primary:hover {
+  background-color: #dbeafe;
+}
+
+.input-primary {
+  border-color: #60a5fa;
+}
+
+.input-primary::placeholder {
+  color: #93c5fd;
+}
+
+.text-primary {
+  color: #60a5fa;
+}
+
+button.primary:hover {
+  background-color: #3b82f6;
+}
+
+.lbl-primary {
+  color: #60a5fa;
+}
+
+/* secondary variant color classes */
+.secondary {
+  background-color: #818cf8;
+}
+
+.bg-light-secondary {
+  background-color: #eef2ff;
+}
+
+.switch-secondary {
+  background-color: #eef2ff;
+  user-select: none;
+}
+
+.switch-secondary:hover {
+  background-color: #e0e7ff;
+}
+
+.input-secondary {
+  border-color: #818cf8;
+}
+
+.input-secondary::placeholder {
+  color: #a5b4fc;
+}
+
+.text-secondary {
+  color: #818cf8;
+}
+
+button.secondary:hover {
+  background-color: #6366f1;
+}
+
+/* Input label css */
+
+.form-inp:placeholder-shown + .form-lbl {
+  top: 12px;
+  left: 3px;
+  opacity: 0;
+  z-index: -10;
+}
