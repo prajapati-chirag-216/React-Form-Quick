@@ -30,7 +30,6 @@ function index(props) {
   return (
     <fieldset className="flex flex-col text-slate-500">
       <div className="relative">
-        {console.log(inputType)}
         {inputType == "textarea" ? (
           <textarea
             type={[inputType]}

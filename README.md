@@ -4,9 +4,9 @@
 
 ## Features
 
-- **Easy Integration**: Quickly integrate into your React forms.
+- **Easy Integration**: Quickly create fully functional forms with built-in validation, without writing any code.
 - **Automatic Validation**: Handles field validations with minimal configuration.
-- **Customizable**: Easily customize labels, validation messages, and styles.
+- **Customizable**: Easily customize labels, validations, and styles.
 - **Lightweight**: No additional dependencies required.
 
 ## Installation

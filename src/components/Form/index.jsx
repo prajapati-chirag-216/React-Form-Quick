@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Input from "../Input/index.jsx";
 import { FORM_VARIANTS } from "../../utils/variables/index.js";
-import { VALIDATION_MESSAGES, useForm } from "inputs-validator-react";
+import { VALIDATION_MESSAGES, useForm } from "input-guard";
 import "./index.css";
 
 export const Form = (props) => {
